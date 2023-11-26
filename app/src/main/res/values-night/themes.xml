@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StoryU" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/violet2</item>
+    </style>
+</resources>

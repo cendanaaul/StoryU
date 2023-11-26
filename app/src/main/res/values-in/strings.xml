@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StoryU</string>
+    <string name="name">Nama</string>
+    <string name="sign_out">Keluar</string>
+    <string name="settings">Pengaturan</string>
+    <string name="upload">Unggah</string>
+    <string name="preview_imgup">Pra tampilan gambar</string>
+    <string name="desc">Deskripsi</string>
+    <string name="desc2">Ceritakan ceritamu disini!</string>
+    <string name="gallery_add">Tambah Galeri</string>
+    <string name="camera_add">Tambah Kamera</string>
+    <string name="image_story">Cerita gambar</string>
+    <string name="email_here">email kamu</string>
+    <string name="email_error">format email salah</string>
+    <string name="name_right">nama harus diisi</string>
+    <string name="pass_here">kata sandi kamu</string>
+    <string name="pass_error">kata sandi paling sedikit 8 karakter</string>
+    <string name="sign_in">Masuk</string>
+    <string name="name_here">nama kamu</string>
+    <string name="sign_up">Daftar</string>
+    <string name="not_member">belum punya akun?</string>
+    <string name="wrong_input">email atau kata sandi salah</string>
+    <string name="have_acc">sudah punya akun?</string>
+    <string name="no_permission">izin telah ditolak</string>
+    <string name="upload_warning">unggah gambar dulu</string>
+    <string name="publish">PUBLIKASIKAN</string>
+    <string name="title_activity_maps">Peta Cerita</string>
+    <string name="timeout">Waktu habis</string>
+    <string name="reload">Muat Ulang</string>
+</resources>

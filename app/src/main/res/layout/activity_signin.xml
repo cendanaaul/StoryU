@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.member.SigninActivity">
+
+    <ImageView
+        android:id="@+id/ivSignIn"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toTopOf="@+id/et_emailmember"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iv_signinheader" />
+
+    <com.cencen.storyu.customelement.ETEmailCustom
+        android:id="@+id/et_emailmember"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:hint="@string/email_here"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.cencen.storyu.customelement.ETPassword
+        android:id="@+id/et_passwember"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="60dp"
+        android:hint="@string/pass_here"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_emailmember" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="@color/violet2"
+        android:fontFamily="@font/bold"
+        android:text="@string/sign_in"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_passwember" />
+
+    <TextView
+        android:id="@+id/tv_notmember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/regular"
+        android:text="@string/not_member"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignIn" />
+
+    <TextView
+        android:id="@+id/tv_gotosignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/bold"
+        android:text="@string/sign_up"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tv_notmember"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignIn" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loadingbars"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loadingbar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
